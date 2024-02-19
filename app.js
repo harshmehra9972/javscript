@@ -1,7 +1,8 @@
 // variable
 // let name='my name is harsh mehra'
 
-// let age='im am 19 years old'
+let age='im am 19 years old'
+console.log(age)
 
 // let hobbies= ['sports', 'wacth movies','listen music']
 
@@ -62,11 +63,20 @@
 let person = {
     name :'max',
     greet() {
-        alert('hello');
+        alert('hello everyone');
     }
 };
 
 person.greet();
+
+
+let user=32
+
+function adult(){
+    adult = user-12
+}
+adult();
+alert(adult)
 
 
 
