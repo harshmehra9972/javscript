@@ -1,0 +1,67 @@
+.main-section
+{
+    width: 90%;
+    margin: auto;
+}
+.main-div
+{    width: 100%;
+    display: flex;
+}
+.Bulid
+{    background-color:sandybrown ;
+    padding: 34px 34px 50px 30px;
+}
+.btn
+{
+    padding: 1%;
+    background-color: black;
+    color: white;
+}
+.div3
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.minus
+{
+flex-basis: 44%;
+border: 1px solid;
+padding: 10px 3px 9px 17px;
+}
+
+.impedit
+{
+    flex-basis: 50%;
+    border: 1px solid;
+    padding: 10px 3px 9px 17px;
+}
+
+@media (max-width:780px) {
+    .main-div {
+        width: 100%;
+        flex-direction: column;
+        
+    }
+   
+    .minus {
+        flex-basis: 45%; 
+    }
+    .impedit {
+        flex-basis: 45%; 
+    }
+}
+@media (max-width: 480px) {
+    .main-section {
+        width: 100%; 
+        
+    }
+    .main-div, .div3 {
+        display: block;
+
+    }
+    .minus, .impedit {
+        flex-basis: 100%; 
+    }
+}
+

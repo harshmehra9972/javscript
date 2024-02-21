@@ -1,8 +1,8 @@
 // variable
 // let name='my name is harsh mehra'
 
-let age='im am 19 years old'
-console.log(age)
+// let age='im am 19 years old'
+// console.log(age)
 
 // let hobbies= ['sports', 'wacth movies','listen music']
 
@@ -51,32 +51,36 @@ console.log(age)
 
 // ==========================================================//
 // passing data with parameter//
-// function user (fname = "harsh",lname = "mehra"){
-//     document.write (fname +" " + lname);
-//   }
+// function prabh(fname = "harsh", lname = "mehra") {
+//   document.write(fname + " " + lname);
+// }
 
-// user();
+// prabh();
+
+
 
 // ===========================================================//
 // object
 
-let person = {
-    name :'max',
-    greet() {
-        alert('hello everyone');
-    }
-};
+// let person = {
+//     name :'max',
+//     greet() {
+//         alert('hello everyone');
+//     }
+// };
 
-person.greet();
+// person.greet();
 
+// let user =584556
+// function user1()
+// {
+//     user1 = user-584446
+// }
+// user1();
+// alert(user1)
 
-let user=32
-
-function adult(){
-    adult = user-12
-}
-adult();
-alert(adult)
+// let hobbies ={username:'maxi', place:'new york'}
+// alert(hobbies.username)
 
 
 
