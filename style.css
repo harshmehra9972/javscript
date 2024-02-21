@@ -43,6 +43,10 @@ padding: 10px 3px 9px 17px;
         flex-direction: column;
         
     }
+    .Bulid
+    {
+        width: 91%;
+    }
    
     .minus.impedit {
         flex-basis: 43%; 
