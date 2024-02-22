@@ -123,7 +123,35 @@
 // {
 //     alert("you cannot vote")
 // }
- 
+//  ============================================================================
+
+let age =18;
+let voterCard="no"
+
+if(age>=18 && voterCard == "yes"){
+    alert("you can vote")
+}
+ if(age>=18 && voterCard != "yes")
+{
+    alert("Get your voter id card")
+}
+
+else{
+    alert("you cannot vote")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 // let login =0 ;
 
 // if(login==0){
@@ -198,3 +226,13 @@
 //         document.write("Wrong Input")
 //         break;
 // }
+// ================================================================
+
+// while loop
+
+let counter =1;
+
+while (counter <= 10){
+    
+    counter++;
+}
