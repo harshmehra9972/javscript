@@ -166,34 +166,35 @@
 // else{
 //     document.write("Wrong input")
 // }
+
 // ==================================================================================
 
 // switch statment
 
-let input ;
-input=078;
+// let input ;
+// input=078;
 
 
-switch (input) {
-    case 1:
-        document.write("Continue....")
-        break;
-        case "y":
-            document.write("Continue....")
-        break;
-        case  "yes":
-            document.write("Continue....")
-        break;
-        case 0:
-            document.write("End....")
-        break;
-        case  "n":
-            document.write("End....")
-        break;
-        case  "no":
-            document.write("End....")
-        break;
-    default:
-        document.write("Wrong Input")
-        break;
-}
+// switch (input) {
+//     case 1:
+//         document.write("Continue....")
+//         break;
+//         case "y":
+//             document.write("Continue....")
+//         break;
+//         case  "yes":
+//             document.write("Continue....")
+//         break;
+//         case 0:
+//             document.write("End....")
+//         break;
+//         case  "n":
+//             document.write("End....")
+//         break;
+//         case  "no":
+//             document.write("End....")
+//         break;
+//     default:
+//         document.write("Wrong Input")
+//         break;
+// }
